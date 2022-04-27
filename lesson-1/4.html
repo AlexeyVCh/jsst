@@ -30,13 +30,14 @@
   <script>
     "use strict";
 
-    const userNuber = prompt('Введите число');
+    const userNumber = prompt('Введите число');
 
-    const hundreds = Math.trunc(userNuber / 100) % 10;
-    const ten = Math.trunc(userNuber / 10) % 10;
-    const units = userNuber % 10;
+    const hundreds = Math.trunc(userNumber / 100) % 10;
+    const ten = Math.trunc(userNumber / 10) % 10;
+    const units = userNumber % 10;
 
-    console.log(`В числе ${userNuber} количество сотен: ${hundreds}, десятков: ${ten}, единиц: ${units}`)
+    console.log(`В числе ${userNumber} количество сотен: ${hundreds}, \
+десятков: ${ten}, единиц: ${units}`);
 
   </script>
 </body>
