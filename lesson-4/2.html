@@ -63,7 +63,7 @@
     PostES5.prototype.edit = function (content) {
       this.content = content;
       this.updatedTime = new Date();
-    }
+    };
 
     const postES5 = new PostES5(`Автор`, `Какой-то контент`);
     console.log(postES5);
@@ -81,7 +81,7 @@
     AttachedPostES5.prototype.makeHighlighted = function () {
       this.highlighted = true;
       this.updatedTime = new Date();
-    }
+    };
 
     const attachedES5 = new AttachedPostES5(`Автор`, `Что-то тут`);
     attachedES5.makeHighlighted();
